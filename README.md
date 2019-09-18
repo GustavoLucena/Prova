@@ -1,4 +1,5 @@
 Banco de dados usado  no desenvolvimento MYSQL
+
 ---------- SQL DML ----------------------
 
 CREATE DATABASE `cpf`
