@@ -15,6 +15,10 @@ class buscaControler extends Controller
     }
 
     public function cliente(Request $request){
+
+        $validatedData = $request->validate([      'cpf' => 'required|integer'      ]);   
+
+
         $req =  $request->all();
         $cliente = Cliente::where("cpf", "=", $req['cpf'])->first();
         

@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>CPF</title>
+    <title>Consultar Cliente</title>
   </head>
   <style>
   body{
-      background: #4ea8d4 !important;
+      background: #eaeaea !important;
   }
   
   </style>
@@ -30,7 +30,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1">Digite o CPF</span>
                             </div>
-                            <input type="number" name="cpf" class="form-control" placeholder="000.000.000-00" aria-label="Usuário" aria-describedby="basic-addon1">
+                            <input type="number" name="cpf" class="form-control" placeholder="000.000.000-00"  max="99999999999" aria-label="Usuário" aria-describedby="basic-addon1">
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Buscar</button>
