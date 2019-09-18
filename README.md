@@ -31,9 +31,13 @@ Depois entre na pasta do projeto. Renomeie o arquivo .env.example para .env
 No arquivo .env altere os seguites campos
 
 DB_CONNECTION=mysql
+
 DB_DATABASE=cpf
+
 DB_USERNAME=root
+
 DB_PASSWORD=
+
 
 
 Agora duas coisas importantes:
